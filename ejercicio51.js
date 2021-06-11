@@ -17,4 +17,4 @@ console.log(`${total}`);
 const sumaArray = arr.reduce((a,b) => pa + b );
 console.log(`${sumaArray}`);
 
-// hola mundo
+// hola mundo hola
