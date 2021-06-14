@@ -9,3 +9,14 @@ const repitePalabra = (palabra,numero) =>{
    return resultado;
 }
 console.log(`${repitePalabra('hola mundo',4)}`);
+
+
+String.prototype.repiteme = function(numero){
+    let resultado = '';
+    for(let i = 0; i<numero; i++)  { 
+        resultado+=`${this}\n`;              
+    }
+   return resultado;
+}
+
+console.log(`batlefield`.repiteme(5));
