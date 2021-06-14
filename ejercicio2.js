@@ -2,6 +2,7 @@
    Los polindromos son palabras que se leen igual , aunque estén invertidas.
    Ejemplo: Ana , Otto , Bob
 */
+
 const BuscaPolindromos = cadena => {
    let separador = cadena.split('');
    let polindromo = separador.reverse().join(''); 
@@ -11,4 +12,4 @@ const BuscaPolindromos = cadena => {
   // se deja como return por que si son iguales devolverá un true o un false ahorrandonos el if
 }
 
-console.log(BuscaPolindromos("caca"));
+console.log(BuscaPolindromos("tata"));
