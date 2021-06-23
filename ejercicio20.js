@@ -5,6 +5,20 @@ Ejemplo
             Victor Robles  devuelve False
 */
 
+const limpiaTexto = text =>{
+    return text.replace(/[^\w]/gi,'').toLowerCase().split('').sort().join('');
+}
+
+const anagrama = (t1,t2) =>{
+    if(limpiaTexto(t1) === limpiaTexto(t2)) resultado =`${t1} y ${t2} son anagramas \n`;
+    else resultado =`${t1} y ${t2} no son anagramas \n`;  
+    return resultado;
+}
+console.log(anagrama('hola','laho'));
+
+
+/*
+console.log(limpiaTexto('hola mun .. do'));
 const anagrama = (str1,str2) =>{
     let array1 = '' , array2 = '' , resultado ='';
     if (str1!=null && str2!=null){
@@ -26,6 +40,5 @@ const anagrama = (str1,str2) =>{
     }
     return resultado;
 }
-
-
 console.log(anagrama('lapo','lapolapo'));
+*/
