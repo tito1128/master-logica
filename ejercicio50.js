@@ -2,6 +2,8 @@
 dado un numero, devolver cuantos bucles tiene
 un numero tiene un bucle cuando tiene un circulo cerrado
 cuando lo dibujas , lo que 6 tiene un bucle ,1 no tiene bucle y 8 tiene dos bucles
+
+los bucles son los cicurlos que tiene cada numero  ejemplo 6 = 1 , 8 = 2 , 0 = 1 , 9 = 1
 */
 
 
